@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.main-navigation {
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  opacity: 0.8;
+}
+
+.main-navigation a:active {
+  opacity: 0.3;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.shopping-cart a:hover,
+.shopping-cart a:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.shopping-cart a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.current {
+  border-bottom: 2px solid #fb565a;
+}
